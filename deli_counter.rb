@@ -2,7 +2,7 @@
 
 def line(deli)
   if deli.size == 0 
-     puts "The line is currently empty."
+     "The line is currently empty."
   else 
     line = []
     line << "The line is currently:"
@@ -10,6 +10,6 @@ def line(deli)
       line << " #{deli.index(name)} #{name}"
   end 
 end 
- puts output 
+  output 
 end 
   
