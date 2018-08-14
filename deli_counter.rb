@@ -10,6 +10,6 @@ def line(deli)
       line << " #{deli.index(name)} #{name}"
   end 
 end 
-  output 
+  line 
 end 
   
