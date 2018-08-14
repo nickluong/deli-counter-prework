@@ -1,4 +1,5 @@
 # Write your code here.
+katz_deli = []
 
 def line(deli)
   if deli.size == 0 
