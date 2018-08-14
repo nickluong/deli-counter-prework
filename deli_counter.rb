@@ -2,11 +2,12 @@
 
 def line(deli)
   if deli.size == 0 
-     return "The line is currently empty."
+     puts "The line is currently empty."
   else 
-    output = "The line is currently:"
+    line = []
+    line << "The line is currently:"
     deli.each do |name|
-      output += " #{deli.index(name)} #{name}"
+      line += " #{deli.index(name)} #{name}"
   end 
 end 
  return   output 
