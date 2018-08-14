@@ -12,5 +12,6 @@ def line(deli)
       count += 1
       output += "#{count} #{deli[count-1]}"
     end 
+    puts output
   end 
 end 
