@@ -16,5 +16,9 @@ def line(deli)
 end
 
 def take_a_number(deli, name)
-  puts "Welcome, #{name}. You are number #{deli.size} in line."
+  if(deli.size == 0)
+  puts "Welcome, #{name}. You are number #{deli.size +1} in line."
+  else 
+    puts "Welcome, #{name}. You are number #{deli.size} in line."
+  end 
 end 
