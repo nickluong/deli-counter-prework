@@ -4,7 +4,6 @@ katz_deli = []
 def line(deli)
   if(deli.size == 0)
     puts "The line is currently empty."
-  end
   else 
     count = 0 
     output = "The line is currently:"
