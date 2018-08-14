@@ -8,6 +8,7 @@ def line(deli)
     deli.each do |name|
       output += " #{deli.index(name)} #{name}"
   end 
+end 
   output 
 end 
   
