@@ -7,9 +7,9 @@ def line(deli)
     line = []
     line << "The line is currently:"
     deli.each do |name|
-      line += " #{deli.index(name)} #{name}"
+      line << " #{deli.index(name)} #{name}"
   end 
 end 
- return   output 
+ puts output 
 end 
   
